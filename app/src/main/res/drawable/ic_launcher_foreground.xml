@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  图标 A「圆环相连」：
+  - 圆环 = 一个房间；环上四个点 = 乐队成员（紫色那个是主机）
+  - 穿过中心的心跳线 = 同一个拍子，所有人跟着它走
+  全部内容在自适应图标安全区（中心 66dp 圆）内。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 圆环 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#5EE6B5"
+        android:strokeWidth="3.5"
+        android:pathData="M54,30 a24,24 0 1,1 0,48 a24,24 0 1,1 0,-48" />
+    <!-- 成员：左上主机（紫），其余薄荷青 -->
+    <path
+        android:fillColor="#B388FF"
+        android:pathData="M37,37 m-5.5,0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0" />
+    <path
+        android:fillColor="#5EE6B5"
+        android:pathData="M71,37 m-5.5,0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0" />
+    <path
+        android:fillColor="#5EE6B5"
+        android:pathData="M37,71 m-5.5,0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0" />
+    <path
+        android:fillColor="#5EE6B5"
+        android:pathData="M71,71 m-5.5,0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0" />
+    <!-- 心跳节拍线 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M38,54 L46,54 L50,45 L54,63 L58,49 L62,54 L70,54" />
+</vector>
